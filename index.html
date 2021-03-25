@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cosy apartments</title>
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <nav class="nav">
+            <a href="index.html" class="logo">
+                <h1>Cosy apartments</h1>
+            </a>
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Our flats</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Facilities</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="hero">
+        <div class="container">
+            <div class="main-heading">
+                <h1 class="title">Cosy apartments</h1>
+                <h2 class="subtitle">Welcome to the most comfortable apartments in</h2>
+                <h2 class="subtitle">the heart of Budapest</h2>
+            </div>
+        </div>
+    </div>
+
+    <section class="booking">
+        <div class="container">
+            <form action="" class="form">
+                <div class="input-group">
+                    <label for="apartments" class="input-label">Choose an apartment</label>
+                    <select name="options" class="input" id="apartments">
+                        <option value="dohany-28">Dohany 28</option>
+                        <option value="kiraly-32">Kiraly 32</option>
+                        <option value="szentkiralyi-10">Szentkiralyi 10</option>
+                        <option value="hercegprimas-11">Hercegprimas 11</option>
+                        <option value="vaci-79">Vaci 79</option>
+                        <option value="vorosmarty-12">Vorosmarty 12</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="check-in" class="input-label">Check in</label>
+                    <input type="date" class="input" id="check-in">
+                </div>
+                <div class="input-group">
+                    <label for="check-out" class="input-label">Check out</label>
+                    <input type="date" class="input" id="check-out">
+                </div>
+                <div class="input-group">
+                    <label for="adults" class="input-label">Adults</label>
+                    <select name="options" class="input" id="adults">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="children" class="input-label">Children</label>
+                    <select name="options" class="input" id="children">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn form-btn btn-purple">Book
+                    <span class="dots"><i class="fas fa-elepsis-h"></i></span>
+                </button>                    
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="facilities">Facilities</h2>
+            <div class="facilities">
+                <img src="img/facilities.png" alt="facilities">
+            </div>
+    </section>
+</main>
+    <script src="index.js"></script>
+</body>
+<footer>
+    <a class="weatherwidget-io" href="https://forecast7.com/en/47d5019d04/budapest/" data-label_1="BUDAPEST" data-label_2="WEATHER" data-theme="beige" >BUDAPEST WEATHER</a>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    </script>
+</footer>
+</html>
