@@ -20,6 +20,13 @@
     --gradient-color-alt: linear-gradient(to right, var(--purple-light), var(--yellow-solid));
 }
 
+.facilities-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
 /*Global styles*/
 html {
     font-size: 10px;
@@ -41,7 +48,7 @@ ul {
 }
 
 section {
-    padding: 5rem 0;
+    padding: 3rem 0;
 }
 
 /*Reusable styles*/
@@ -182,11 +189,25 @@ title {
     letter-spacing: 3px;    
 }
 
-.subtitle {
+#about-us-text {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fff;
+}
+
+.about-us-header {
+    color: #fff;
+}
+
+.subtitle,
+#about-us-text {
     font-size: 3.6rem;
     font-weight: 300;
     font-family: 'Courgette', sursive;
 }
+
+
 
 /*Booking section styles*/
 .booking {
@@ -235,16 +256,24 @@ title {
     background-color: var(--purple-light);
 }
 
-.section-head {
+.section-head,
+.facilities-header,
+.location-header {
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
-.heading {
+.heading, 
+.about-us-header,
+.location-header,
+.facilities-header {
     display: block;
     font-size: 3rem;
     text-transform: uppercase;
+    text-align: center;
 }
+
+
 
 .grid {
     display: grid;
@@ -306,7 +335,7 @@ title {
 
 @media screen and (min-width: 1000px) {
     section:not(.booking) {
-        padding: 10rem 0;
+        padding: 5rem 0;
     }
 
     .hamburger-menu {
@@ -367,20 +396,7 @@ title {
 }
 
 
-.middle-section {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: space-around;
-    align-items: center;
-}
 
-.middle-section-image {    
-    margin-left: 100px;    
-}
-
-.middle-section-text {
-    padding-left: 150px;
-}
 
 /* map */
 .map-responsive {
