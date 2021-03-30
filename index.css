@@ -20,6 +20,8 @@
     --gradient-color-alt: linear-gradient(to right, var(--purple-light), var(--yellow-solid));
 }
 
+
+
 .facilities-img {
     display: block;
     margin-left: auto;
@@ -52,7 +54,9 @@ section {
 }
 
 /*Reusable styles*/
-.btn {
+.btn,
+.contacts-submit,
+.contacts-reset {
     color: #fff;
     font-size: 1.3rem;
     font-weight: bold;
@@ -201,7 +205,8 @@ title {
 }
 
 .subtitle,
-#about-us-text {
+#about-us-text,
+.contacts-form {
     font-size: 3.6rem;
     font-weight: 300;
     font-family: 'Courgette', sursive;
@@ -248,11 +253,15 @@ title {
     margin-left: auto;
 }
 
-.btn-purple {
+.btn-purple,
+.contacts-submit,
+.contacts-reset {
     background-color: var(--purple-solid);
 }
 
-.btn-purple:hover {
+.btn-purple:hover,
+.contacts-submit:hover,
+.contacts-reset:hover {
     background-color: var(--purple-light);
 }
 
@@ -266,7 +275,8 @@ title {
 .heading, 
 .about-us-header,
 .location-header,
-.facilities-header {
+.facilities-header,
+#contacts {
     display: block;
     font-size: 3rem;
     text-transform: uppercase;
