@@ -367,23 +367,20 @@ title {
 }
 
 
-
-.col {
-  position: fixed;
-  top: 80px;
-  left: 10px;
-  background: blue;
+.middle-section {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.col-text {
-  width: 500px;
-  height: 300px;
-  overflow: scroll;
-  padding-left: 150px;
+.middle-section-image {    
+    margin-left: 100px;    
 }
 
-
-
+.middle-section-text {
+    padding-left: 150px;
+}
 
 /* map */
 .map-responsive {
