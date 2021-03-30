@@ -195,11 +195,11 @@ title {
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-    color: #fff;
+    color: black;
 }
 
 .about-us-header {
-    color: #fff;
+    color:black;
 }
 
 .subtitle,
@@ -387,7 +387,8 @@ title {
         justify-content: space-between;
     }
     
-    .book-form .input-group {
+    .book-form,
+    .input-group {
         margin-bottom: 0;
     }
 
