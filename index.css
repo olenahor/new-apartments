@@ -20,8 +20,6 @@
     --gradient-color-alt: linear-gradient(to right, var(--purple-light), var(--yellow-solid));
 }
 
-
-
 .facilities-img {
     display: block;
     margin-left: auto;
@@ -373,7 +371,7 @@ title {
     }
 
     .nav-link:hover {
-        color: var (var(--yellow-solid);
+        color: var(--yellow-solid;
     }
 
     .title {
@@ -402,9 +400,6 @@ title {
         min-width: 10rem;
     }  
 }
-
-
-
 
 /* map */
 .map-responsive {
