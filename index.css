@@ -368,14 +368,14 @@ title {
 
 
 
-.about-us-image {
+.col {
   position: fixed;
   top: 80px;
   left: 10px;
   background: blue;
 }
 
-.about-us {
+.col-text {
   width: 500px;
   height: 300px;
   overflow: scroll;
