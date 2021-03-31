@@ -210,6 +210,10 @@ title {
     font-family: 'Courgette', sursive;
 }
 
+.contacts-form {
+    text-align: center;
+}
+
 
 
 /*Booking section styles*/
@@ -263,9 +267,7 @@ title {
     background-color: var(--purple-light);
 }
 
-.section-head,
-.facilities-header,
-.location-header {
+.section-head {
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -371,7 +373,7 @@ title {
     }
 
     .nav-link:hover {
-        color: var(--yellow-solid;
+        color: var(--yellow-solid);
     }
 
     .title {
@@ -382,18 +384,18 @@ title {
         font-size: 4.6rem;
     }
 
-    .book-form {
+    .booking .form {
         display: flex;
         justify-content: space-between;
     }
     
-    .book-form,
+    .booking .form,
     .input-group {
         margin-bottom: 0;
     }
 
-    .book-form .input-group:first-child {
-        flex: 0 0 20%;
+    .booking .form .input-group:first-child {
+        flex: 0 0 35%;
     }
 
     .input, 
@@ -411,9 +413,9 @@ title {
 }
 
 .map-responsive iframe {
-    left: 0;
+    left: 20;
     top: 0;
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: absolute;    
 }

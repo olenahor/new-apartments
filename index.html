@@ -5,18 +5,16 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cosy apartments</title>
-    <!--Font awesome CDN-->
+    <title>Cozy apartments</title>    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link rel="stylesheet" href="index.css">
-    
+    <link rel="stylesheet" href="index.css">    
 </head>
-<body>
+<body>    
     <header class="header">
         <div class="container">
             <nav class="nav">
                 <a href="index.html" class="logo">
-                    <h2>Cosy apartments</h2>
+                    <h2>Cozy apartments</h2>
                 </a>
                 <div class="hamburger-menu">
                     <i class="fas fa-bars"></i>
@@ -36,7 +34,7 @@
                         <a href="#location" class="nav-link">Location</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contacts" class="nav-link">Contacts</a>
+                        <a href="#contacts" class="nav-link">Send a message</a>
                     </li>
                 </ul>
             </nav>
@@ -46,12 +44,12 @@
         <div class="hero">
             <div class="container">
                 <div class="main-heading">
-                    <h1 class="title">Cosy apartments</h1>
+                    <h1 class="title">Cozy apartments</h1>
                     <h2 class="subtitle">Welcome to the most comfortable apartments in</h2>
                     <h2 class="subtitle">the heart of Budapest</h2>
                 </div>
             </div>
-        </div>
+        </div>        
         <section class="booking">
             <div class="container">
                 <form action="GET" class="form">
@@ -101,7 +99,10 @@
                     </button>  
                 </form>                                
             </div>
-        </section>      
+        </section>
+        <marquee behavior="alternate" direction="left" bgcolor="#ffcc00">
+            +36363600000 +362044444444 cozyapartments@gmail.com
+        </marquee>     
         <section id="about-us">
             <h3 class="about-us-header">About us</h3>
             <p id="about-us-text"> Cozy apartments is a family business that has been
@@ -204,20 +205,15 @@
             <h2 class="location-header">Location</h2>        
             <div class="location">
                 <div class="map-responsive">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.6922264582986!2d19.06185831562666!3d47.49590877917746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc42b4e1672b%3A0x2019edbe2ce55548!2zQnVkYXBlc3QsIERvaMOhbnkgdS4gMjgsIDEwNzQg0KPQs9C-0YDRidC40L3QsA!5e0!3m2!1suk!2sua!4v1615372887051!5m2!1suk!2sua"
-                    width="1980"
-                    height="600"
-                    style="border: 0;"
-                    allowfullscreen=""
-                    loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1QSAd4-2eNldpgXhyU3-Z5Sb0sMHCbf52" width="1000" height="480"></iframe>
                 </div>
             </div>
         </section>
     </main>
         <script src="index.js"></script>    
     <footer>
-        <h2 id="contacts">Contacts</h2>
-            <form method="POST" action="https://formspree.io/f/xwkaejjj">
+        <h2 id="contacts">Send a message</h2>
+            <form method="POST" action="https://formspree.io/f/xwkaejjj" class="contacts-form">
                 <label>
                     User name: <input name="user-name" type="text" placeholder="User name" required>
                 </label>
@@ -233,11 +229,13 @@
                 <input type="submit" class="contacts-submit">
                 <input type="reset" class="contacts-reset">
             </form>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-e65e8bb8-3d0b-4921-b00e-c1e673e1f135"></div>     
 
         <a class="weatherwidget-io" href="https://forecast7.com/en/47d5019d04/budapest/" data-label_1="BUDAPEST" data-label_2="WEATHER" data-theme="beige" >BUDAPEST WEATHER</a>
         <script>
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-        </script>  
+        </script>
 
     </footer>
 </body>
